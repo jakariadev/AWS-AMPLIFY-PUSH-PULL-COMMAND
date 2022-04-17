@@ -7,7 +7,7 @@ amplify pull --appId XXXXXXXXX --envName dev
 ```
 
 ## 2. Give AWS Credentials and Answer the console:
-
+```
  Select the authentication method you want to use: AWS access keys
 ? accessKeyId:  ********************
 ? secretAccessKey:  ****************************************
@@ -23,7 +23,7 @@ Please tell us about your project
 ? Build Command:  npm.cmd run-script build **[hit space for default]**
 ? Start Command: npm.cmd run-script start **[hit space for default]**
 ? Do you plan on modifying this backend? ** Yes**
-
+```
 
 ## 3. To sync future upstream changes.
 ```
@@ -35,6 +35,7 @@ amplify pull
 amplify add function
 ```
  ### REST OF Function add process:
+ ```
   ? Select which capability you want to add: Lambda function (serverless function)
   ? Provide an AWS Lambda function name: **FunctionName**
   ? Choose the runtime that you want to use: **Python**
@@ -50,6 +51,7 @@ amplify add function
   ? Do you want to configure advanced settings? **No**
   ? Do you want to edit the local lambda function now? **No**
   Successfully added resource FunctionName locally.
+  ```
   
 ## 5. Amplify PUSH
 ```
